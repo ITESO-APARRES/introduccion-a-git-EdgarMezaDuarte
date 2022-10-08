@@ -1,4 +1,8 @@
-#include
+/*
+    Archivo Hello.c que usamos para nuestro 
+    ejercicio de git basico
+*/
+#include <studio.h>
 
 int main(void){
     printf("Hola mundo :D");
