@@ -5,8 +5,10 @@
 #include <studio.h>
 
 int main(void){
-    printf("Hola mundo :D");
-    //Se hace una modificación desde el editor git hub.
-    print("Se modifica");
+    decirHola("Juan");
     return 0;
+}
+
+void decirHola(char* nombre){
+    printf("Hola %s, ¿como estas?", nombre);
 }
